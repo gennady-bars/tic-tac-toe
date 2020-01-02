@@ -24,7 +24,7 @@ class Board extends React.Component {
     return (
       <div>
         <div className="status">{/* {status} */}</div>
-        <div className="board-row">
+        <div className="board-row" style={{display: 'flex', flexWrap: 'nowrap',}}>
           {this.renderSquare(0)}
           {this.renderSquare(1)}
           {this.renderSquare(2)}
